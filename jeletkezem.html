@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Jelentkezem">
+    <meta name="keywords" content="Jelentkezem">
+    <meta name="author" content="Albert Orsolya">
+    <link rel="stylesheet" href="stilus2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelentkezem</title>
+</head>
+<body>
+
+        <h3>Jelentkezés</h3>
+        
+        <div class="container">
+          <form action="/action_page.php">
+            <label for="fname">Vezetéknév</label>
+            <input type="text" id="fname" name="firstname" placeholder="Vezetékneved..">
+        
+            <label for="lname">Keresztnév</label>
+            <input type="text" id="lname" name="lastname" placeholder="Keresztneved..">
+        
+            <label for="country">Ország</label>
+            <select id="country" name="country">
+              <option value="magyar">MAGYAR</option>
+              <option value="cicaország">CICALANDIA</option>
+            </select>
+        
+            <label for="subject">Leírás</label>
+            <textarea id="subject" name="subject" placeholder="Írd ide miért szeretnél jelentkezni.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Jelentkezem">
+          </form>
+        </div>
+</body>
+</html>
