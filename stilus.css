@@ -147,6 +147,7 @@ p{
 .negyedik{
     padding-top: 30px;
     padding-bottom: 40px;
+<<<<<<< HEAD
 }
 .otodik {
     display: grid;
@@ -266,4 +267,6 @@ h2{
 }
 .cim{
     color: white;
+=======
+>>>>>>> a352885bdf501dac142e83fe3ab2354bb66d10db
 }
